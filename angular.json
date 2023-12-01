@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pwa-app:build"
+            "buildTarget": "pwa-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pwa-app:build:production"
+              "buildTarget": "pwa-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pwa-app:build"
+            "buildTarget": "pwa-app:build"
           }
         },
         "test": {
